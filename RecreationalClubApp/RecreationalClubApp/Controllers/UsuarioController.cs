@@ -1,4 +1,5 @@
 ﻿using Configurations.BaseController;
+using Configurations.BaseInterface;
 using Configurations.BaseReturn.Interface;
 using Configurations.JWT;
 using Entities;
@@ -12,11 +13,14 @@ namespace RecreationalClubApp.Controllers
     public class UsuarioController : OperationController<Usuario, IUsuarioService>
     {
         private readonly IUsuarioService _usuarioService;
-
-        public UsuarioController(IUsuarioService usuarioService) : base(usuarioService)
+        private readonly ITokenService _tokenService;
+        public UsuarioController(IUsuarioService service, ITokenService tokenService) : base(service, tokenService)
         {
-            _usuarioService = usuarioService;
+            _usuarioService = service;
+            _tokenService = tokenService;
         }
+
+
 
         [HttpPost("Authenticate")]
         public async Task<IOperationResult<string>> Authenticate([FromBody] AuthenticateModel model)

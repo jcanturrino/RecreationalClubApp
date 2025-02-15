@@ -9,9 +9,11 @@ namespace Configurations.BaseLogic
     public class TokenService : BaseService<Tokens>, ITokenService
     {
         private readonly IRepository<Usuario> _usuarioRepository;
-        public TokenService(IRepository<Tokens> repository, ServiceConfiguration serviceConfiguration, IRepository<Usuario> usuarioRepository) : base(repository, serviceConfiguration)
+        private readonly ITokenRepository _repository;
+        public TokenService(ITokenRepository repository, ServiceConfiguration serviceConfiguration, IRepository<Usuario> usuarioRepository) : base(repository, serviceConfiguration)
         {
             this._usuarioRepository = usuarioRepository;
+            _repository = repository;
         }
 
         public async Task<IOperationResult<string>> GenerateTokenAsync(int usuarioId)
@@ -37,6 +39,11 @@ namespace Configurations.BaseLogic
 
             await _repository.UpdateAsync(token);
             return IOperationResult<string>.SuccessResult(newToken.Data.Token, "Token renovado con éxito");
+        }
+
+        public void ValidateToken(string token)
+        {
+            _repository.ValidateToken(token, _jwtSecret);
         }
 
         private async Task<Tokens> GenerateJwtTokenAsync(string username, int usuarioId, string jwtSecret)

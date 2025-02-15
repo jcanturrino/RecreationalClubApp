@@ -17,6 +17,32 @@ namespace Configurations.BaseLogic
             _usuarioRepository = usuarioRepository;
         }
 
+        public void ValidateToken(string token, string secret)
+        {
+            if (string.IsNullOrEmpty(token))
+            {
+                throw new UnauthorizedAccessException("Token no proporcionado");
+            }
+
+            var tokenHandler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+            var key = System.Text.Encoding.ASCII.GetBytes(secret);
+
+            try
+            {
+                tokenHandler.ValidateToken(token, new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true
+                }, out _);
+            }
+            catch (Exception)
+            {
+                throw new UnauthorizedAccessException("Token inválido o expirado");
+            }
+        }
 
         public async Task<IOperationResult<string>> GenerateTokenAsync(int usuarioId)
         {

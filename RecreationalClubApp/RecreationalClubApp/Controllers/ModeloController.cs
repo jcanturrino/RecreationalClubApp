@@ -1,4 +1,5 @@
 ﻿using Configurations.BaseController;
+using Configurations.BaseInterface;
 using Entities;
 using IServices;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +11,7 @@ namespace RecreationalClubApp.Controllers
     [Route("api/[controller]")]
     public class ModeloController : OperationController<Modelo, IModeloService>
     {
-        public ModeloController(IModeloService service) : base(service)
+        public ModeloController(IModeloService service, ITokenService tokenService) : base(service, tokenService)
         {
         }
     }

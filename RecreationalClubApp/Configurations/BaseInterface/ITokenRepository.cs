@@ -8,5 +8,6 @@ namespace Configurations.BaseInterface
     {
         Task<IOperationResult<string>> GenerateTokenAsync(int usuarioId);
         Task<IOperationResult<string>> RefreshTokenAsync(string refreshToken);
+        void ValidateToken(string token, string secret);
     }
 }
