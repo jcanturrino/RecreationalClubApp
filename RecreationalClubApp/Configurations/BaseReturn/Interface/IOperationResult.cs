@@ -16,6 +16,10 @@ namespace Configurations.BaseReturn.Interface
         {
             return new OperationResult<T>(false, message, default(T));
         }
+        static IOperationResult<T> ErrorResult(string message, bool continuar)
+        {
+            return new OperationResult<T>(continuar, message, default(T));
+        }
         static async Task<IOperationResult<T>> TryExecuteAsync(Func<Task<T>> operation)
         {
             try

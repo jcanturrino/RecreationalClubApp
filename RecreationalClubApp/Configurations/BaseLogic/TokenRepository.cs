@@ -16,8 +16,27 @@ namespace Configurations.BaseLogic
             _configuration = configuration;
             _usuarioRepository = usuarioRepository;
         }
+        public async Task<IOperationResult<bool>> ValidateTokenAndPerformActionAsync(string token, string action)
+        {
+            // Buscar el token en la base de datos
+            var tokenEntity = await this.FindAsync(t => t.Token == token);
+            var validToken = tokenEntity.Data.OrderByDescending(t => t.FechaCreacion).FirstOrDefault();
 
-        public void ValidateToken(string token, string secret)
+            if (validToken == null)
+            {
+                return IOperationResult<bool>.ErrorResult("Token no encontrado", false);
+            }
+
+            // Validar la vigencia del token
+            if (validToken.ExpiryDate.Hour <= DateTime.Now.Hour)
+            {
+                return IOperationResult<bool>.ErrorResult("Token expirado", false);
+            }
+
+            // Si el token es válido
+            return IOperationResult<bool>.SuccessResult(true, "Token válido");
+        }
+        public void ValidateToken(string token, string secret, string accion)
         {
             if (string.IsNullOrEmpty(token))
             {

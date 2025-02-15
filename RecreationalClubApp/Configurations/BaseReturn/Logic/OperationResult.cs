@@ -18,6 +18,7 @@ namespace Configurations.BaseReturn.Logic
             Data = data;
         }
 
+
         public async Task ExecuteResultAsync(ActionContext context)
         {
             var objectResult = new ObjectResult(new { Success, Message, Data })

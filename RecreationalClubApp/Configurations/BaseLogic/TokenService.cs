@@ -41,9 +41,9 @@ namespace Configurations.BaseLogic
             return IOperationResult<string>.SuccessResult(newToken.Data.Token, "Token renovado con éxito");
         }
 
-        public void ValidateToken(string token)
+        public void ValidateToken(string token, string accion)
         {
-            _repository.ValidateToken(token, _jwtSecret);
+            _repository.ValidateToken(token, _jwtSecret, accion);
         }
 
         private async Task<Tokens> GenerateJwtTokenAsync(string username, int usuarioId, string jwtSecret)

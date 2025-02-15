@@ -20,7 +20,7 @@ namespace RecreationalClubApp.Controllers
         [HttpGet("ConsultarPorClienteId/{clienteId}")]
         public async Task<IOperationResult<IEnumerable<RegistroAcceso>>> ConsultarPorClienteId(int clienteId)
         {
-            _tokenService.ValidateToken(Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last());
+            _tokenService.ValidateToken(Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last(), Request.Method);
             return await _service.ConsultarPorClienteIdAsync(clienteId);
         }
     }
