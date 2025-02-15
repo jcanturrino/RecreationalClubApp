@@ -1,6 +1,7 @@
 ﻿using Configurations.BaseInterface;
 using Configurations.BaseReturn.Interface;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using System.Linq.Expressions;
 
 
@@ -9,10 +10,11 @@ namespace Configurations.BaseLogic
     public abstract class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         protected readonly DbContext _context;
-
-        protected BaseRepository(DbContext context)
+        private readonly IServiceScopeFactory _serviceScopeFactory;
+        protected BaseRepository(DbContext context, IServiceScopeFactory serviceScopeFactory)
         {
             _context = context;
+            _serviceScopeFactory = serviceScopeFactory;
         }
 
         public async Task<IOperationResult<IEnumerable<TEntity>>> GetAllAsync()
@@ -36,10 +38,10 @@ namespace Configurations.BaseLogic
 
         public async Task<IOperationResult<IEnumerable<TEntity>>> FindAsync(Expression<Func<TEntity, bool>> predicate)
         {
-            return await IOperationResult<IEnumerable<TEntity>>.TryExecuteAsync(async () =>
-            {
-                return await _context.Set<TEntity>().Where(predicate).ToListAsync();
-            });
+            using var scope = _serviceScopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<DbContext>();
+            var data = await context.Set<TEntity>().Where(predicate).ToListAsync();
+            return IOperationResult<IEnumerable<TEntity>>.SuccessResult(data, "Consulta exitosa");
         }
 
         public async Task<IOperationResult<bool>> AddAsync(TEntity entity)

@@ -2,6 +2,7 @@
 using Configurations.BaseReturn.Interface;
 using Configurations.JWT;
 using Entities;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Configurations.BaseLogic
 {
@@ -10,6 +11,7 @@ namespace Configurations.BaseLogic
     {
         private readonly IRepository<Usuario> _usuarioRepository;
         private readonly ITokenRepository _repository;
+        private readonly IServiceScopeFactory _serviceScopeFactory;
         public TokenService(ITokenRepository repository, ServiceConfiguration serviceConfiguration, IRepository<Usuario> usuarioRepository) : base(repository, serviceConfiguration)
         {
             this._usuarioRepository = usuarioRepository;

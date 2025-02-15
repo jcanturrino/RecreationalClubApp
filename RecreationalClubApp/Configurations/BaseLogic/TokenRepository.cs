@@ -4,20 +4,36 @@ using Configurations.JWT;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Configurations.BaseLogic
 {
     public class TokenRepository : Repository<Tokens>, ITokenRepository
     {
         private readonly IConfiguration _configuration;
+        private readonly IServiceScopeFactory _serviceScopeFactory;
         private readonly IRepository<Usuario> _usuarioRepository;
-        public TokenRepository(DbContext context, IConfiguration configuration, IRepository<Usuario> usuarioRepository) : base(context)
+        private readonly IRepository<Permiso> _permisoRepository;
+        private readonly IRepository<RolPermiso> _rolePermisoRepository;
+
+        public TokenRepository(DbContext context, IServiceScopeFactory
+            serviceScopeFactory, IConfiguration configuration, IRepository<Usuario> usuarioRepository,
+            IRepository<Permiso> permisoRepository, IRepository<RolPermiso> rolePermisoRepository) : base(context, serviceScopeFactory)
         {
             _configuration = configuration;
             _usuarioRepository = usuarioRepository;
+            _permisoRepository = permisoRepository;
+            _rolePermisoRepository = rolePermisoRepository;
+            _serviceScopeFactory = serviceScopeFactory;
         }
+
+
         public async Task<IOperationResult<bool>> ValidateTokenAndPerformActionAsync(string token, string action)
         {
+            // Crear una nueva instancia de DbContext para esta operación
+            using var scope = _serviceScopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<DbContext>();
+
             // Buscar el token en la base de datos
             var tokenEntity = await this.FindAsync(t => t.Token == token);
             var validToken = tokenEntity.Data.OrderByDescending(t => t.FechaCreacion).FirstOrDefault();
@@ -33,8 +49,46 @@ namespace Configurations.BaseLogic
                 return IOperationResult<bool>.ErrorResult("Token expirado", false);
             }
 
-            // Si el token es válido
-            return IOperationResult<bool>.SuccessResult(true, "Token válido");
+            // Validar privilegios del usuario
+            var userHasPrivilege = await ValidateUserPrivilegesAsync(validToken.UsuarioId, action);
+            if (!userHasPrivilege.Data)
+            {
+                return IOperationResult<bool>.ErrorResult(userHasPrivilege.Message, false);
+            }
+
+            // Si el token y los privilegios son válidos
+            return IOperationResult<bool>.SuccessResult(true, "Token y privilegios válidos");
+        }
+
+        private async Task<IOperationResult<bool>> ValidateUserPrivilegesAsync(int usuarioId, string action)
+        {
+            using var scope = _serviceScopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<DbContext>();
+
+            var permisoEntity = await _permisoRepository.FindAsync(p => p.Nombre == action.ToUpper());
+            var permiso = permisoEntity.Data.FirstOrDefault();
+            var usuarioRolId = _usuarioRepository.FindAsync(p => p.Id == usuarioId).Result.Data.FirstOrDefault().RolId;
+            if (permiso == null)
+            {
+                return IOperationResult<bool>.ErrorResult("Permiso no encontrado", false);
+            }
+
+            // Verificar si el usuario tiene el permiso configurado en RolPermisos
+            var rolPermisoEntity = await context.Set<RolPermiso>().Where(rp => rp.RolId == usuarioRolId && rp.PermisoId == permiso.Id).ToListAsync();
+            var rolPermiso = rolPermisoEntity.FirstOrDefault();
+
+            if (rolPermiso == null)
+            {
+                return IOperationResult<bool>.ErrorResult("Usuario no tiene el privilegio para realizar esta acción", false);
+            }
+
+            if (rolPermiso == null)
+            {
+                return IOperationResult<bool>.ErrorResult("Usuario no tiene el privilegio para realizar esta acción", false);
+            }
+
+            // Si el usuario tiene el privilegio
+            return IOperationResult<bool>.SuccessResult(true, "Privilegio válido");
         }
         public void ValidateToken(string token, string secret, string accion)
         {
@@ -56,10 +110,12 @@ namespace Configurations.BaseLogic
                     ValidateAudience = false,
                     ValidateLifetime = true
                 }, out _);
+
+                ValidateTokenAndPerformActionAsync(token, accion);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw new UnauthorizedAccessException("Token inválido o expirado");
+                throw new UnauthorizedAccessException($"Token inválido o expirado: {ex.Message}");
             }
         }
 
