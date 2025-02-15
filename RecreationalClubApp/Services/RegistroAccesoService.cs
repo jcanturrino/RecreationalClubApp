@@ -1,16 +1,16 @@
 ﻿using Configurations.BaseInterface;
 using Configurations.BaseLogic;
 using Configurations.BaseReturn.Interface;
+using Configurations.JWT;
 using Entities;
 using IServices;
-using Microsoft.Extensions.Configuration;
 
 namespace Services
 {
     public class RegistroAccesoService : BaseService<RegistroAcceso>, IRegistroAccesoService
     {
-        public RegistroAccesoService(IRepository<RegistroAcceso> repository, IConfiguration configuration)
-            : base(repository, configuration["JwtSecret"])
+        public RegistroAccesoService(IRepository<RegistroAcceso> repository, ServiceConfiguration serviceConfiguration)
+        : base(repository, serviceConfiguration)
         {
         }
 

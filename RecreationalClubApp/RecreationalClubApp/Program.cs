@@ -1,9 +1,12 @@
 using Configurations.BaseInterface;
 using Configurations.BaseLogic;
 using Configurations.DependencyInjection;
-using Configurations.JWT.Configuration;
+using Configurations.JWT;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
+using System.Text;
 
 
 namespace RecreationalClubApp
@@ -31,8 +34,36 @@ namespace RecreationalClubApp
             builder.Services.AddScoped<DbContext, RecreationalClubContext>();
 
             builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            builder.Services.AddScoped(typeof(ITokenRepository), typeof(TokenRepository));
+            builder.Services.AddScoped(typeof(ITokenService), typeof(TokenService));
 
-            builder.Services.AddJwtAuthentication(configuration);
+
+            // Registrar configuración de JWT
+            var jwtConfig = configuration.GetSection("JwtConfiguration").Get<JwtConfiguration>();
+            builder.Services.AddSingleton(jwtConfig);
+
+            // Registrar ServiceConfiguration
+            builder.Services.AddScoped<ServiceConfiguration>(sp => new ServiceConfiguration(
+                sp.GetRequiredService<ITokenRepository>(),
+                sp.GetRequiredService<JwtConfiguration>()));
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = configuration["JwtConfiguration:Issuer"],
+                    ValidAudience = configuration["JwtConfiguration:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfig.JwtSecret))
+                };
+            });
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();

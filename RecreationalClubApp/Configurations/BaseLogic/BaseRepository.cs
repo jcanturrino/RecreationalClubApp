@@ -71,5 +71,13 @@ namespace Configurations.BaseLogic
                 return true;
             });
         }
+
+        public async Task<IOperationResult<TEntity>> AddAndReturnAsync(TEntity entity)
+        {
+            await _context.Set<TEntity>().AddAsync(entity);
+            await _context.SaveChangesAsync();
+
+            return IOperationResult<TEntity>.SuccessResult(entity, "Entidad insertada con éxito");
+        }
     }
 }

@@ -1,10 +1,10 @@
-﻿using Entities;
+﻿using Configurations.JWT;
+using Entities;
 using Microsoft.EntityFrameworkCore;
 
 public class RecreationalClubContext : DbContext
 {
     public RecreationalClubContext(DbContextOptions<RecreationalClubContext> options) : base(options) { }
-
     public DbSet<Rol> Roles { get; set; }
     public DbSet<Usuario> Usuarios { get; set; }
     public DbSet<TipoCliente> TiposClientes { get; set; }
@@ -17,6 +17,9 @@ public class RecreationalClubContext : DbContext
     public DbSet<Vehiculo> Vehiculos { get; set; }
     public DbSet<ParqueoValet> ParqueoValets { get; set; }
     public DbSet<CodigoUbicacion> CodigosUbicacion { get; set; }
+    public DbSet<Permiso> Permiso { get; set; }
+    public DbSet<RolPermiso> RolPermiso { get; set; }
+    public DbSet<Tokens> Tokens { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

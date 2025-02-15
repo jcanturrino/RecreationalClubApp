@@ -11,5 +11,6 @@ namespace Configurations.BaseInterface
         Task<IOperationResult<bool>> AddAsync(TEntity entity);
         Task<IOperationResult<bool>> UpdateAsync(TEntity entity);
         Task<IOperationResult<bool>> DeleteAsync(int id);
+        Task<IOperationResult<TEntity>> AddAndReturnAsync(TEntity entity);
     }
 }

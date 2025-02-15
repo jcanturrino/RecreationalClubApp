@@ -3,100 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\codigoubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\codigoubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\jwt\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\jwt\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\baselogic\\baseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\baselogic\\baseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\jwt\\authenticatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\jwt\\authenticatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\jwt\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\jwt\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\jwt\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\jwt\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\baselogic\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\baselogic\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\baseinterface\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\baseinterface\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\tipoclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\tipoclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\baselogic\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\baselogic\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\registroaccesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\registroaccesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\parqueovaletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\parqueovaletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\modelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\modelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\informacioncontactocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\informacioncontactocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\codigoubicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\codigoubicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\recreationalclubapp\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9781773-96A4-4D77-A211-60ECEB1841A6}|RecreationalClubApp\\RecreationalClubApp.csproj|solutionrelative:recreationalclubapp\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\tipoclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\tipoclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\registroaccesoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,124 +67,20 @@
       "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\modeloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\informacioncontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\informacioncontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\codigoubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\codigoubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\codigoubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\codigoubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\icodigoubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\icodigoubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\icodigoubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\icodigoubicacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\parqueovaletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\parqueovaletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\iparqueovaletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\iparqueovaletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\iparqueovaletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\iparqueovaletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\ivehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\ivehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\modelorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\modelorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\imodelorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\imodelorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\imodeloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\imodeloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\configurations\\basecontroller\\operationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{814E3AB8-9A5E-4902-867C-908117337510}|Configurations\\Configurations.csproj|solutionrelative:configurations\\basecontroller\\operationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\imarcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\imarcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\registroaccesorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\registroaccesorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\iregistroaccesorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\iregistroaccesorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\iregistroaccesoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\iregistroaccesoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\informacioncontactorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\informacioncontactorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\iinformacioncontactorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\iinformacioncontactorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\iinformacioncontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\iinformacioncontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\tipoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\tipoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\itipoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\itipoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\itipoclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\itipoclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\dataaccess\\data\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0C433C-7054-4529-87D9-D33C4BED4F0E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\iservices\\irolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CF7781-D664-4BB5-8871-405018C4A1DA}|IServices\\IServices.csproj|solutionrelative:iservices\\irolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\idataaccess\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8961DD6D-44FB-4171-A7CA-000E6FD2A7EB}|IDataAccess\\IDataAccess.csproj|solutionrelative:idataaccess\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|c:\\users\\juan canturriano\\source\\repos\\recreationalclubapp\\recreationalclubapp\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51171A2-C4DB-4747-9234-3BCB593C97D5}|Services\\Services.csproj|solutionrelative:services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -238,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,743 +122,263 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseServices.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\BaseServices.cs",
-              "RelativeDocumentMoniker": "Configurations\\BaseLogic\\BaseServices.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\BaseServices.cs",
-              "RelativeToolTip": "Configurations\\BaseLogic\\BaseServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\TokenService.cs",
+              "RelativeDocumentMoniker": "Configurations\\BaseLogic\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\TokenService.cs",
+              "RelativeToolTip": "Configurations\\BaseLogic\\TokenService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:15:42.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthenticateModel.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\AuthenticateModel.cs",
-              "RelativeDocumentMoniker": "Configurations\\JWT\\AuthenticateModel.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\AuthenticateModel.cs",
-              "RelativeToolTip": "Configurations\\JWT\\AuthenticateModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:13:30.833Z",
+              "WhenOpened": "2025-02-15T18:28:07.36Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JWTConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\JWTConfiguration.cs",
-              "RelativeDocumentMoniker": "Configurations\\JWT\\JWTConfiguration.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\JWTConfiguration.cs*",
-              "RelativeToolTip": "Configurations\\JWT\\JWTConfiguration.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAsAAAAAAAAAA==",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Data\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\UsuarioRepository.cs",
+              "RelativeToolTip": "DataAccess\\Data\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:13:25.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:31:33.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VehiculoController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\VehiculoController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\VehiculoController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\VehiculoController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\VehiculoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:44:12.541Z",
+              "WhenOpened": "2025-02-15T19:15:57.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Program.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Program.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCIAAAArAAAAAAAAAA==",
+              "Title": "ServiceConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\ServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\JWT\\ServiceConfiguration.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\ServiceConfiguration.cs",
+              "RelativeToolTip": "Configurations\\JWT\\ServiceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:02:25.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ClienteService.cs",
-              "RelativeDocumentMoniker": "Services\\ClienteService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ClienteService.cs",
-              "RelativeToolTip": "Services\\ClienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:15:04.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CodigoUbicacionService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\CodigoUbicacionService.cs",
-              "RelativeDocumentMoniker": "Services\\CodigoUbicacionService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\CodigoUbicacionService.cs",
-              "RelativeToolTip": "Services\\CodigoUbicacionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:02:01.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TipoClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\TipoClienteController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\TipoClienteController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\TipoClienteController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\TipoClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:09:07.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RolController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\RolController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\RolController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\RolController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\RolController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:01:16.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IClienteRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IClienteRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:16:00.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegistroAccesoController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\RegistroAccesoController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\RegistroAccesoController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\RegistroAccesoController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\RegistroAccesoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:26:03.333Z",
+              "WhenOpened": "2025-02-15T18:24:32.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\ClienteRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\ClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseInterface\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "Configurations\\BaseInterface\\ITokenRepository.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseInterface\\ITokenRepository.cs",
+              "RelativeToolTip": "Configurations\\BaseInterface\\ITokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:16:40.217Z",
+              "WhenOpened": "2025-02-15T18:30:45.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MarcaService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\MarcaService.cs",
-              "RelativeDocumentMoniker": "Services\\MarcaService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\MarcaService.cs",
-              "RelativeToolTip": "Services\\MarcaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BaseServices.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\BaseServices.cs",
+              "RelativeDocumentMoniker": "Configurations\\BaseLogic\\BaseServices.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\BaseServices.cs",
+              "RelativeToolTip": "Configurations\\BaseLogic\\BaseServices.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:28:12.073Z",
+              "WhenOpened": "2025-02-15T18:26:23.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ParqueoValetController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\ParqueoValetController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\ParqueoValetController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\ParqueoValetController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\ParqueoValetController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "Configurations\\BaseLogic\\TokenRepository.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseLogic\\TokenRepository.cs",
+              "RelativeToolTip": "Configurations\\BaseLogic\\TokenRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:00:49.724Z",
+              "WhenOpened": "2025-02-15T18:29:29.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ModeloController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\ModeloController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\ModeloController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\ModeloController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\ModeloController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "JWTConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\JWTConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\JWT\\JWTConfiguration.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\JWT\\JWTConfiguration.cs",
+              "RelativeToolTip": "Configurations\\JWT\\JWTConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:37:38.402Z",
+              "WhenOpened": "2025-02-15T18:39:29.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\UsuarioService.cs*",
+              "RelativeToolTip": "Services\\UsuarioService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:32:12.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "MarcaController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\MarcaController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\MarcaController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\MarcaController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\MarcaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "MarcaService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\MarcaService.cs",
+              "RelativeDocumentMoniker": "Services\\MarcaService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\MarcaService.cs",
+              "RelativeToolTip": "Services\\MarcaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:29:57.505Z",
+              "WhenOpened": "2025-02-15T18:33:18.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InformacionContactoController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\InformacionContactoController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\InformacionContactoController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\InformacionContactoController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\InformacionContactoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Program.cs",
+              "RelativeDocumentMoniker": "RecreationalClubApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Program.cs",
+              "RelativeToolTip": "RecreationalClubApp\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAD8AAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:21:57.61Z",
+              "WhenOpened": "2025-02-15T18:34:55.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CodigoUbicacionController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\CodigoUbicacionController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\CodigoUbicacionController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\CodigoUbicacionController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\CodigoUbicacionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:04:17.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "RecreationalClubApp\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "RecreationalClubApp\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:17:15.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VehiculoService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\VehiculoService.cs",
-              "RelativeDocumentMoniker": "Services\\VehiculoService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\VehiculoService.cs",
-              "RelativeToolTip": "Services\\VehiculoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:41:01.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:04:17.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TipoClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\TipoClienteService.cs",
-              "RelativeDocumentMoniker": "Services\\TipoClienteService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\TipoClienteService.cs",
-              "RelativeToolTip": "Services\\TipoClienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:06:37.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RolService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RolService.cs",
-              "RelativeDocumentMoniker": "Services\\RolService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RolService.cs",
-              "RelativeToolTip": "Services\\RolService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:59:17.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RegistroAccesoService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RegistroAccesoService.cs",
-              "RelativeDocumentMoniker": "Services\\RegistroAccesoService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RegistroAccesoService.cs",
-              "RelativeToolTip": "Services\\RegistroAccesoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:24:15.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ParqueoValetService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ParqueoValetService.cs",
-              "RelativeDocumentMoniker": "Services\\ParqueoValetService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ParqueoValetService.cs",
-              "RelativeToolTip": "Services\\ParqueoValetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:59:07.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 15,
               "Title": "ModeloService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ModeloService.cs",
               "RelativeDocumentMoniker": "Services\\ModeloService.cs",
               "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ModeloService.cs",
               "RelativeToolTip": "Services\\ModeloService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:33:52.509Z",
+              "WhenOpened": "2025-02-15T18:33:28.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 14,
+              "Title": "ParqueoValetService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ParqueoValetService.cs",
+              "RelativeDocumentMoniker": "Services\\ParqueoValetService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ParqueoValetService.cs",
+              "RelativeToolTip": "Services\\ParqueoValetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:33:34.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\appsettings.json",
+              "RelativeDocumentMoniker": "RecreationalClubApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\RecreationalClubApp\\appsettings.json",
+              "RelativeToolTip": "RecreationalClubApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T18:49:08.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistroAccesoService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RegistroAccesoService.cs",
+              "RelativeDocumentMoniker": "Services\\RegistroAccesoService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RegistroAccesoService.cs",
+              "RelativeToolTip": "Services\\RegistroAccesoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:33:40.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RolService.cs",
+              "RelativeDocumentMoniker": "Services\\RolService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\RolService.cs",
+              "RelativeToolTip": "Services\\RolService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:33:45.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TipoClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\TipoClienteService.cs",
+              "RelativeDocumentMoniker": "Services\\TipoClienteService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\TipoClienteService.cs",
+              "RelativeToolTip": "Services\\TipoClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:33:51.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "Services\\VehiculoService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\VehiculoService.cs",
+              "RelativeToolTip": "Services\\VehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:34:02.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "InformacionContactoService.cs",
               "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\InformacionContactoService.cs",
               "RelativeDocumentMoniker": "Services\\InformacionContactoService.cs",
               "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\InformacionContactoService.cs",
               "RelativeToolTip": "Services\\InformacionContactoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:18:36.878Z",
+              "WhenOpened": "2025-02-15T18:33:12.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CodigoUbicacionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\CodigoUbicacionRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\CodigoUbicacionRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\CodigoUbicacionRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\CodigoUbicacionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "CodigoUbicacionService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\CodigoUbicacionService.cs",
+              "RelativeDocumentMoniker": "Services\\CodigoUbicacionService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\CodigoUbicacionService.cs",
+              "RelativeToolTip": "Services\\CodigoUbicacionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:03:43.623Z",
+              "WhenOpened": "2025-02-15T18:33:05.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ICodigoUbicacionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\ICodigoUbicacionRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\ICodigoUbicacionRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\ICodigoUbicacionRepository.cs",
-              "RelativeToolTip": "IDataAccess\\ICodigoUbicacionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Services\\ClienteService.cs",
+              "RelativeToolTip": "Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:02:29.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ICodigoUbicacionService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\ICodigoUbicacionService.cs",
-              "RelativeDocumentMoniker": "IServices\\ICodigoUbicacionService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\ICodigoUbicacionService.cs",
-              "RelativeToolTip": "IServices\\ICodigoUbicacionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:01:35.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ParqueoValetRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\ParqueoValetRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\ParqueoValetRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\ParqueoValetRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\ParqueoValetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:00:16.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IParqueoValetRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IParqueoValetRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IParqueoValetRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IParqueoValetRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IParqueoValetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:59:45.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IParqueoValetService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IParqueoValetService.cs",
-              "RelativeDocumentMoniker": "IServices\\IParqueoValetService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IParqueoValetService.cs",
-              "RelativeToolTip": "IServices\\IParqueoValetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:58:29.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "VehiculoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\VehiculoRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\VehiculoRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\VehiculoRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\VehiculoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:43:43.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IVehiculoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IVehiculoRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IVehiculoRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IVehiculoRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IVehiculoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:42:58.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IVehiculoService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IVehiculoService.cs",
-              "RelativeDocumentMoniker": "IServices\\IVehiculoService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IVehiculoService.cs",
-              "RelativeToolTip": "IServices\\IVehiculoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:40:30.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ModeloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\ModeloRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\ModeloRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\ModeloRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\ModeloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:37:05.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IModeloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IModeloRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IModeloRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IModeloRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IModeloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:35:43.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IModeloService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IModeloService.cs",
-              "RelativeDocumentMoniker": "IServices\\IModeloService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IModeloService.cs",
-              "RelativeToolTip": "IServices\\IModeloService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:33:19.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "OperationController.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseController\\OperationController.cs",
-              "RelativeDocumentMoniker": "Configurations\\BaseController\\OperationController.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\Configurations\\BaseController\\OperationController.cs",
-              "RelativeToolTip": "Configurations\\BaseController\\OperationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:30:40.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "MarcaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\MarcaRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\MarcaRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\MarcaRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\MarcaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:29:17.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IMarcaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IMarcaRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IMarcaRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IMarcaRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IMarcaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:28:46.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IMarcaService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IMarcaService.cs",
-              "RelativeDocumentMoniker": "IServices\\IMarcaService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IMarcaService.cs",
-              "RelativeToolTip": "IServices\\IMarcaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:27:40.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "RegistroAccesoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\RegistroAccesoRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\RegistroAccesoRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\RegistroAccesoRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\RegistroAccesoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:25:35.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "IRegistroAccesoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IRegistroAccesoRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IRegistroAccesoRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IRegistroAccesoRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IRegistroAccesoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:24:59.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IRegistroAccesoService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IRegistroAccesoService.cs",
-              "RelativeDocumentMoniker": "IServices\\IRegistroAccesoService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IRegistroAccesoService.cs",
-              "RelativeToolTip": "IServices\\IRegistroAccesoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:23:30.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "IInformacionContactoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IInformacionContactoRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IInformacionContactoRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IInformacionContactoRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IInformacionContactoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:19:50.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "InformacionContactoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\InformacionContactoRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\InformacionContactoRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\InformacionContactoRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\InformacionContactoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:20:23.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "IInformacionContactoService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IInformacionContactoService.cs",
-              "RelativeDocumentMoniker": "IServices\\IInformacionContactoService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IInformacionContactoService.cs",
-              "RelativeToolTip": "IServices\\IInformacionContactoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:18:03.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "IClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IClienteService.cs",
-              "RelativeDocumentMoniker": "IServices\\IClienteService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IClienteService.cs",
-              "RelativeToolTip": "IServices\\IClienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:11:26.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ITipoClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\ITipoClienteRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\ITipoClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\ITipoClienteRepository.cs",
-              "RelativeToolTip": "IDataAccess\\ITipoClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:07:22.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "ITipoClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\ITipoClienteService.cs",
-              "RelativeDocumentMoniker": "IServices\\ITipoClienteService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\ITipoClienteService.cs",
-              "RelativeToolTip": "IServices\\ITipoClienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:05:59.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "TipoClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\TipoClienteRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\TipoClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\TipoClienteRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\TipoClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:07:57.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "RolRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\RolRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Data\\RolRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\DataAccess\\Data\\RolRepository.cs",
-              "RelativeToolTip": "DataAccess\\Data\\RolRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:00:42.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IRolRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IRolRepository.cs",
-              "RelativeDocumentMoniker": "IDataAccess\\IRolRepository.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IDataAccess\\IRolRepository.cs",
-              "RelativeToolTip": "IDataAccess\\IRolRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:59:57.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "IRolService.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IRolService.cs",
-              "RelativeDocumentMoniker": "IServices\\IRolService.cs",
-              "ToolTip": "C:\\Users\\Juan Canturriano\\source\\repos\\RecreationalClubApp\\RecreationalClubApp\\IServices\\IRolService.cs",
-              "RelativeToolTip": "IServices\\IRolService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:56:56.707Z",
+              "WhenOpened": "2025-02-15T18:31:18.265Z",
               "EditorCaption": ""
             }
           ]
