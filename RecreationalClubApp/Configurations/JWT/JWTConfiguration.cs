@@ -11,10 +11,11 @@ namespace Configurations.JWT
     {
         public static class JwtConfiguration
         {
+            public static string JwtSecret { get; set; }
             public static IServiceCollection AddJwtAuthentication(this IServiceCollection services, IConfiguration configuration)
             {
-                var jwtSecret = configuration["JwtSecret"];
-                var key = Encoding.ASCII.GetBytes(jwtSecret);
+                JwtSecret = configuration["JwtSecret"];
+                var key = Encoding.ASCII.GetBytes(JwtSecret);
 
                 services.AddAuthentication(options =>
                 {

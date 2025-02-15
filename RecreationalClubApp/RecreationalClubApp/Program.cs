@@ -2,11 +2,7 @@ using Configurations.BaseInterface;
 using Configurations.BaseLogic;
 using Configurations.DependencyInjection;
 using Configurations.JWT.Configuration;
-using DataAccess.Data;
-using IDataAccess;
-using IServices;
 using Microsoft.EntityFrameworkCore;
-using Services;
 using System.Reflection;
 
 
@@ -30,31 +26,20 @@ namespace RecreationalClubApp
             var configuration = builder.Configuration;
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            // Registrar DbContext
             builder.Services.AddDbContext<RecreationalClubContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
-
-            // Registrar el contexto de DbContext
             builder.Services.AddScoped<DbContext, RecreationalClubContext>();
 
-            // Registrar repositorios genéricos y concretos
             builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
-            // Registrar servicios genéricos
-            builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-
-            // Configurar autenticación JWT utilizando el proyecto Configuration
             builder.Services.AddJwtAuthentication(configuration);
 
-            // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

@@ -1,4 +1,4 @@
-﻿using Configurations.BaseController.YourNamespace;
+﻿using Configurations.BaseController;
 using Configurations.BaseReturn.Interface;
 using Configurations.JWT;
 using Entities;
@@ -18,7 +18,7 @@ namespace RecreationalClubApp.Controllers
             _usuarioService = usuarioService;
         }
 
-        [HttpPost("authenticate")]
+        [HttpPost("Authenticate")]
         public async Task<IOperationResult<string>> Authenticate([FromBody] AuthenticateModel model)
         {
             return await _usuarioService.AuthenticateAsync(model.Username, model.Password);
