@@ -1,3 +1,6 @@
+Nombre : JUAN PABLO CANTURRIANO UPIA
+
+
 Proyecto de Gestión de Tokens y Permisos
 Este proyecto es una aplicación ASP.NET Core que permite la gestión de tokens y permisos para la autenticación y autorización de usuarios. La aplicación utiliza una base de datos MySQL para almacenar los datos de usuarios, roles, permisos y tokens.
 
