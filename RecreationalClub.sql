@@ -164,9 +164,10 @@ INSERT INTO TiposClientes (Tipo) VALUES ('Visitante'), ('Miembro');
 --Insert de permisos
 INSERT INTO Permisos (Nombre, Descripcion)
 VALUES 
-('Ver', 'Permiso para ver la lista'),
-('Editar', 'Permiso para editar información'),
-('Eliminar', 'Permiso para eliminar');
+('GET', 'Permiso para obtener la lista de recursos'),
+('POST', 'Permiso para agregar nuevos recursos'),
+('DELETE', 'Permiso para eliminar recursos'),
+('PUT', 'Permiso para Editar');
 
 -- Permisos para el rol Administrador (RolId = 1)
 INSERT INTO RolPermisos (RolId, PermisoId, FechaCreacion, FechaUltimaModificacion)
